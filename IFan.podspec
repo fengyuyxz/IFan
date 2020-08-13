@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
  
   spec.author             = { "颜学宙" => "" }
   
-  spec.source       = { :git => "http://EXAMPLE/IFan.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/xuezhouyan/IFan.git", :tag => "#{spec.version}" }
 
 
 
