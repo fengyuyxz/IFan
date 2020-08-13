@@ -14,13 +14,13 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "A short description of IFan."
 
-  spec.description  = <<-DESC
-                   DESC
+ 
 
-  spec.homepage     = "http://EXAMPLE/IFan"
+  spec.homepage     = "https://github.com/xuezhouyan/IFan.git"
   
 
-  spec.license      = "MIT (example)"
+
+  spec.license          = {:type => "MIT", :file => "LICENSE"}
  
   spec.author             = { "颜学宙" => "" }
   
@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "IFan/**/*.{h,m}"
   spec.resource = ['IFan/core/resouce/*.bundle']
-  spec.dependency  'SDWebImage', '~> 4.3.3'
+  spec.dependency  "SDWebImage", "~> 4.3.3"
   spec.dependency  'Masonry', '~> 1.1.0'
   spec.dependency  'MJExtension'
   spec.dependency  'SuperPlayer'
