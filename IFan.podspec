@@ -28,10 +28,15 @@ Pod::Spec.new do |spec|
 
 
 
+  spec.platform     = :ios, '9.0'
+  spec.ios.deployment_target = '9.0'
+  spec.requires_arc = true
+
   spec.source_files  = "IFan/**/*.{h,m}"
   spec.resource = ['IFan/core/resouce/*.bundle']
   spec.dependency  "SDWebImage", "~> 4.3.3"
-  spec.dependency  'Masonry', '~> 1.1.0'
+  spec.dependency  'YYText', '~> 1.0.7'
+   spec.dependency  'Masonry', '~> 1.1.0'
   spec.dependency  'MJExtension'
   spec.dependency  'SuperPlayer'
   spec.dependency  'TTKeyFrameAnimationView', '~> 1.0.0'
