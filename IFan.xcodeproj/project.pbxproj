@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CB1D9F424E4F35200F10690 /* IFanModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1D9F324E4F35200F10690 /* IFanModule.m */; };
+		1CB1DA8424E4FC1100F10690 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1D9FB24E4FC1100F10690 /* UIView+Frame.m */; };
+		1CB1DA8524E4FC1100F10690 /* NSString+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1D9FD24E4FC1100F10690 /* NSString+Empty.m */; };
+		1CB1DA8624E4FC1100F10690 /* YxzGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA0224E4FC1100F10690 /* YxzGiftModel.m */; };
+		1CB1DA8724E4FC1100F10690 /* YXZMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA0324E4FC1100F10690 /* YXZMessageModel.m */; };
+		1CB1DA8824E4FC1100F10690 /* YxzAttributeMsgFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA0724E4FC1100F10690 /* YxzAttributeMsgFactory.m */; };
+		1CB1DA8924E4FC1100F10690 /* YxzUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA0824E4FC1100F10690 /* YxzUserModel.m */; };
+		1CB1DA8A24E4FC1100F10690 /* YxzMsgAttributeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA0C24E4FC1100F10690 /* YxzMsgAttributeModel.m */; };
+		1CB1DA8B24E4FC1100F10690 /* HttpHostManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA0D24E4FC1100F10690 /* HttpHostManager.m */; };
+		1CB1DA8C24E4FC1100F10690 /* YxzLevelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA0E24E4FC1100F10690 /* YxzLevelManager.m */; };
+		1CB1DA8D24E4FC1100F10690 /* LivePlayerInitializeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA1024E4FC1100F10690 /* LivePlayerInitializeController.m */; };
+		1CB1DA8E24E4FC1100F10690 /* SupportedInterfaceOrientations.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA1324E4FC1100F10690 /* SupportedInterfaceOrientations.m */; };
+		1CB1DA8F24E4FC1100F10690 /* NetWorkCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA1724E4FC1100F10690 /* NetWorkCore.m */; };
+		1CB1DA9024E4FC1100F10690 /* NetWorkRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA1824E4FC1100F10690 /* NetWorkRequestManager.m */; };
+		1CB1DA9124E4FC1100F10690 /* YxzChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA1A24E4FC1100F10690 /* YxzChatController.m */; };
+		1CB1DA9224E4FC1100F10690 /* LoadLiveInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA1B24E4FC1100F10690 /* LoadLiveInfoManager.m */; };
+		1CB1DA9324E4FC1100F10690 /* VoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA2424E4FC1100F10690 /* VoteView.m */; };
+		1CB1DA9424E4FC1100F10690 /* VoteItemModelResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA2524E4FC1100F10690 /* VoteItemModelResult.m */; };
+		1CB1DA9524E4FC1100F10690 /* ProcessButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA2624E4FC1100F10690 /* ProcessButton.m */; };
+		1CB1DA9624E4FC1100F10690 /* YxzLivePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA2E24E4FC1100F10690 /* YxzLivePlayer.m */; };
+		1CB1DA9724E4FC1100F10690 /* SuspensionWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA2F24E4FC1100F10690 /* SuspensionWindow.m */; };
+		1CB1DA9824E4FC1100F10690 /* YxzPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA3024E4FC1100F10690 /* YxzPlayerModel.m */; };
+		1CB1DA9924E4FC1100F10690 /* YxzLivePlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA3224E4FC1100F10690 /* YxzLivePlayerControlView.m */; };
+		1CB1DA9B24E4FC1100F10690 /* YxzVideoLooksBasicInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA3724E4FC1100F10690 /* YxzVideoLooksBasicInfoView.m */; };
+		1CB1DA9C24E4FC1100F10690 /* YxzPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA3B24E4FC1100F10690 /* YxzPopView.m */; };
+		1CB1DA9D24E4FC1100F10690 /* LiveRoomSettingSeparationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA3D24E4FC1100F10690 /* LiveRoomSettingSeparationView.m */; };
+		1CB1DA9E24E4FC1100F10690 /* YxzLiveRoomSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA3F24E4FC1100F10690 /* YxzLiveRoomSettingView.m */; };
+		1CB1DA9F24E4FC1100F10690 /* RCShowLiveVoteMsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA4224E4FC1100F10690 /* RCShowLiveVoteMsgModel.m */; };
+		1CB1DAA024E4FC1100F10690 /* BackgroundAnimationMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA4324E4FC1100F10690 /* BackgroundAnimationMessage.m */; };
+		1CB1DAA124E4FC1100F10690 /* JoinRoomMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA4624E4FC1100F10690 /* JoinRoomMsg.m */; };
+		1CB1DAA224E4FC1100F10690 /* RCMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA4724E4FC1100F10690 /* RCMessageModel.m */; };
+		1CB1DAA324E4FC1100F10690 /* RongCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA4B24E4FC1100F10690 /* RongCloudManager.m */; };
+		1CB1DAA424E4FC1100F10690 /* PraiseMessagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA4C24E4FC1100F10690 /* PraiseMessagModel.m */; };
+		1CB1DAA524E4FC1100F10690 /* UIMsgModeToRongMsgModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA4D24E4FC1100F10690 /* UIMsgModeToRongMsgModelFactory.m */; };
+		1CB1DAA624E4FC1100F10690 /* RongCloudTokenResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA5124E4FC1100F10690 /* RongCloudTokenResult.m */; };
+		1CB1DAA724E4FC1100F10690 /* RCLiveVoteMsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA5224E4FC1100F10690 /* RCLiveVoteMsgModel.m */; };
+		1CB1DAA824E4FC1100F10690 /* YxzSubscriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA5724E4FC1100F10690 /* YxzSubscriptionCell.m */; };
+		1CB1DAA924E4FC1100F10690 /* YxzCommenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA5D24E4FC1100F10690 /* YxzCommenCell.m */; };
+		1CB1DAAA24E4FC1100F10690 /* YxzMsgJoinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA5F24E4FC1100F10690 /* YxzMsgJoinCell.m */; };
+		1CB1DAAB24E4FC1100F10690 /* YxzNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA6024E4FC1100F10690 /* YxzNormalCell.m */; };
+		1CB1DAAC24E4FC1100F10690 /* YxzChatBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA6124E4FC1100F10690 /* YxzChatBaseCell.m */; };
+		1CB1DAAD24E4FC1100F10690 /* YxzMsgGiftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA6224E4FC1100F10690 /* YxzMsgGiftCell.m */; };
+		1CB1DAAE24E4FC1100F10690 /* YxzLeveBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA6324E4FC1100F10690 /* YxzLeveBgView.m */; };
+		1CB1DAAF24E4FC1100F10690 /* YxzChatListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA6424E4FC1100F10690 /* YxzChatListTableView.m */; };
+		1CB1DAB024E4FC1100F10690 /* YxzAdjustPositionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA6724E4FC1100F10690 /* YxzAdjustPositionButton.m */; };
+		1CB1DAB124E4FC1100F10690 /* YxzInputBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA6924E4FC1100F10690 /* YxzInputBoxView.m */; };
+		1CB1DAB224E4FC1100F10690 /* YxzChatCompleteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA6B24E4FC1100F10690 /* YxzChatCompleteComponent.m */; };
+		1CB1DAB324E4FC1100F10690 /* YxzAnimationControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA6C24E4FC1100F10690 /* YxzAnimationControl.m */; };
+		1CB1DAB424E4FC1100F10690 /* YxzFaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA7124E4FC1100F10690 /* YxzFaceCell.m */; };
+		1CB1DAB524E4FC1100F10690 /* YxzShowSelectedFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA7324E4FC1100F10690 /* YxzShowSelectedFaceView.m */; };
+		1CB1DAB624E4FC1100F10690 /* YxzFaceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA7524E4FC1100F10690 /* YxzFaceItem.m */; };
+		1CB1DAB724E4FC1100F10690 /* YxzFaceContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA7724E4FC1100F10690 /* YxzFaceContainerView.m */; };
+		1CB1DAB824E4FC1100F10690 /* RoomBaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA7C24E4FC1100F10690 /* RoomBaseInfo.m */; };
+		1CB1DAB924E4FC1100F10690 /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA8024E4FC1100F10690 /* ToastView.m */; };
+		1CB1DABA24E4FC1100F10690 /* YxzCalculateTextSizeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA8124E4FC1100F10690 /* YxzCalculateTextSizeTool.m */; };
+		1CB1DABB24E4FC1100F10690 /* PraiseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1DA8224E4FC1100F10690 /* PraiseAnimation.m */; };
+		607833900523E074ACEC4977 /* libPods-IFan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F9CD915C4DEADE4739FE8A /* libPods-IFan.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1CB1D72824E4F20400F10690 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1CB1D72A24E4F20400F10690 /* libIFan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIFan.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB1D73C24E4F24400F10690 /* UZModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZModule.h; sourceTree = "<group>"; };
+		1CB1D9F224E4F35200F10690 /* IFanModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFanModule.h; sourceTree = "<group>"; };
+		1CB1D9F324E4F35200F10690 /* IFanModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFanModule.m; sourceTree = "<group>"; };
+		1CB1D9FB24E4FC1100F10690 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		1CB1D9FC24E4FC1100F10690 /* NSString+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Empty.h"; sourceTree = "<group>"; };
+		1CB1D9FD24E4FC1100F10690 /* NSString+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Empty.m"; sourceTree = "<group>"; };
+		1CB1D9FE24E4FC1100F10690 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		1CB1DA0024E4FC1100F10690 /* YxzAttributeMsgFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzAttributeMsgFactory.h; sourceTree = "<group>"; };
+		1CB1DA0124E4FC1100F10690 /* YxzMsgAttributeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzMsgAttributeModel.h; sourceTree = "<group>"; };
+		1CB1DA0224E4FC1100F10690 /* YxzGiftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzGiftModel.m; sourceTree = "<group>"; };
+		1CB1DA0324E4FC1100F10690 /* YXZMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXZMessageModel.m; sourceTree = "<group>"; };
+		1CB1DA0424E4FC1100F10690 /* YxzUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzUserModel.h; sourceTree = "<group>"; };
+		1CB1DA0524E4FC1100F10690 /* YxzLevelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzLevelManager.h; sourceTree = "<group>"; };
+		1CB1DA0624E4FC1100F10690 /* HttpHostManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHostManager.h; sourceTree = "<group>"; };
+		1CB1DA0724E4FC1100F10690 /* YxzAttributeMsgFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzAttributeMsgFactory.m; sourceTree = "<group>"; };
+		1CB1DA0824E4FC1100F10690 /* YxzUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzUserModel.m; sourceTree = "<group>"; };
+		1CB1DA0924E4FC1100F10690 /* YXZMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXZMessageModel.h; sourceTree = "<group>"; };
+		1CB1DA0A24E4FC1100F10690 /* YxzGiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzGiftModel.h; sourceTree = "<group>"; };
+		1CB1DA0B24E4FC1100F10690 /* YXZConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXZConstant.h; sourceTree = "<group>"; };
+		1CB1DA0C24E4FC1100F10690 /* YxzMsgAttributeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzMsgAttributeModel.m; sourceTree = "<group>"; };
+		1CB1DA0D24E4FC1100F10690 /* HttpHostManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpHostManager.m; sourceTree = "<group>"; };
+		1CB1DA0E24E4FC1100F10690 /* YxzLevelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzLevelManager.m; sourceTree = "<group>"; };
+		1CB1DA1024E4FC1100F10690 /* LivePlayerInitializeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivePlayerInitializeController.m; sourceTree = "<group>"; };
+		1CB1DA1124E4FC1100F10690 /* SupportedInterfaceOrientations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportedInterfaceOrientations.h; sourceTree = "<group>"; };
+		1CB1DA1224E4FC1100F10690 /* LivePlayerInitializeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivePlayerInitializeController.h; sourceTree = "<group>"; };
+		1CB1DA1324E4FC1100F10690 /* SupportedInterfaceOrientations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportedInterfaceOrientations.m; sourceTree = "<group>"; };
+		1CB1DA1524E4FC1100F10690 /* NetWorkCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkCore.h; sourceTree = "<group>"; };
+		1CB1DA1624E4FC1100F10690 /* NetWorkRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkRequestManager.h; sourceTree = "<group>"; };
+		1CB1DA1724E4FC1100F10690 /* NetWorkCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkCore.m; sourceTree = "<group>"; };
+		1CB1DA1824E4FC1100F10690 /* NetWorkRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkRequestManager.m; sourceTree = "<group>"; };
+		1CB1DA1A24E4FC1100F10690 /* YxzChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzChatController.m; sourceTree = "<group>"; };
+		1CB1DA1B24E4FC1100F10690 /* LoadLiveInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadLiveInfoManager.m; sourceTree = "<group>"; };
+		1CB1DA1C24E4FC1100F10690 /* LoadLiveInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadLiveInfoManager.h; sourceTree = "<group>"; };
+		1CB1DA1D24E4FC1100F10690 /* YxzChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzChatController.h; sourceTree = "<group>"; };
+		1CB1DA1F24E4FC1100F10690 /* YxzChatResouce.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YxzChatResouce.bundle; sourceTree = "<group>"; };
+		1CB1DA2024E4FC1100F10690 /* animationfireworks.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = animationfireworks.bundle; sourceTree = "<group>"; };
+		1CB1DA2324E4FC1100F10690 /* ProcessButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessButton.h; sourceTree = "<group>"; };
+		1CB1DA2424E4FC1100F10690 /* VoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteView.m; sourceTree = "<group>"; };
+		1CB1DA2524E4FC1100F10690 /* VoteItemModelResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteItemModelResult.m; sourceTree = "<group>"; };
+		1CB1DA2624E4FC1100F10690 /* ProcessButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessButton.m; sourceTree = "<group>"; };
+		1CB1DA2724E4FC1100F10690 /* VoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteView.h; sourceTree = "<group>"; };
+		1CB1DA2824E4FC1100F10690 /* VoteItemModelResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteItemModelResult.h; sourceTree = "<group>"; };
+		1CB1DA2A24E4FC1100F10690 /* YxzLivePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzLivePlayer.h; sourceTree = "<group>"; };
+		1CB1DA2B24E4FC1100F10690 /* SuspensionWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspensionWindow.h; sourceTree = "<group>"; };
+		1CB1DA2C24E4FC1100F10690 /* YxzPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzPlayerModel.h; sourceTree = "<group>"; };
+		1CB1DA2D24E4FC1100F10690 /* YxzLivePlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzLivePlayerControlView.h; sourceTree = "<group>"; };
+		1CB1DA2E24E4FC1100F10690 /* YxzLivePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzLivePlayer.m; sourceTree = "<group>"; };
+		1CB1DA2F24E4FC1100F10690 /* SuspensionWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspensionWindow.m; sourceTree = "<group>"; };
+		1CB1DA3024E4FC1100F10690 /* YxzPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzPlayerModel.m; sourceTree = "<group>"; };
+		1CB1DA3124E4FC1100F10690 /* YxzLiveRoomControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzLiveRoomControlDelegate.h; sourceTree = "<group>"; };
+		1CB1DA3224E4FC1100F10690 /* YxzLivePlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzLivePlayerControlView.m; sourceTree = "<group>"; };
+		1CB1DA3524E4FC1100F10690 /* YxzVideoLooksBasicInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzVideoLooksBasicInfoView.h; sourceTree = "<group>"; };
+		1CB1DA3724E4FC1100F10690 /* YxzVideoLooksBasicInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzVideoLooksBasicInfoView.m; sourceTree = "<group>"; };
+		1CB1DA3A24E4FC1100F10690 /* LiveRoomSettingSeparationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveRoomSettingSeparationView.h; sourceTree = "<group>"; };
+		1CB1DA3B24E4FC1100F10690 /* YxzPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzPopView.m; sourceTree = "<group>"; };
+		1CB1DA3C24E4FC1100F10690 /* YxzLiveRoomSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzLiveRoomSettingView.h; sourceTree = "<group>"; };
+		1CB1DA3D24E4FC1100F10690 /* LiveRoomSettingSeparationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveRoomSettingSeparationView.m; sourceTree = "<group>"; };
+		1CB1DA3E24E4FC1100F10690 /* YxzPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzPopView.h; sourceTree = "<group>"; };
+		1CB1DA3F24E4FC1100F10690 /* YxzLiveRoomSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzLiveRoomSettingView.m; sourceTree = "<group>"; };
+		1CB1DA4124E4FC1100F10690 /* RongCloudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RongCloudManager.h; sourceTree = "<group>"; };
+		1CB1DA4224E4FC1100F10690 /* RCShowLiveVoteMsgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCShowLiveVoteMsgModel.m; sourceTree = "<group>"; };
+		1CB1DA4324E4FC1100F10690 /* BackgroundAnimationMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundAnimationMessage.m; sourceTree = "<group>"; };
+		1CB1DA4424E4FC1100F10690 /* UIMsgModeToRongMsgModelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMsgModeToRongMsgModelFactory.h; sourceTree = "<group>"; };
+		1CB1DA4524E4FC1100F10690 /* PraiseMessagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraiseMessagModel.h; sourceTree = "<group>"; };
+		1CB1DA4624E4FC1100F10690 /* JoinRoomMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinRoomMsg.m; sourceTree = "<group>"; };
+		1CB1DA4724E4FC1100F10690 /* RCMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMessageModel.m; sourceTree = "<group>"; };
+		1CB1DA4824E4FC1100F10690 /* RCLiveVoteMsgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLiveVoteMsgModel.h; sourceTree = "<group>"; };
+		1CB1DA4924E4FC1100F10690 /* RongCloudTokenResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RongCloudTokenResult.h; sourceTree = "<group>"; };
+		1CB1DA4A24E4FC1100F10690 /* RCShowLiveVoteMsgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCShowLiveVoteMsgModel.h; sourceTree = "<group>"; };
+		1CB1DA4B24E4FC1100F10690 /* RongCloudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RongCloudManager.m; sourceTree = "<group>"; };
+		1CB1DA4C24E4FC1100F10690 /* PraiseMessagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraiseMessagModel.m; sourceTree = "<group>"; };
+		1CB1DA4D24E4FC1100F10690 /* UIMsgModeToRongMsgModelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMsgModeToRongMsgModelFactory.m; sourceTree = "<group>"; };
+		1CB1DA4E24E4FC1100F10690 /* BackgroundAnimationMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundAnimationMessage.h; sourceTree = "<group>"; };
+		1CB1DA4F24E4FC1100F10690 /* RCMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMessageModel.h; sourceTree = "<group>"; };
+		1CB1DA5024E4FC1100F10690 /* JoinRoomMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinRoomMsg.h; sourceTree = "<group>"; };
+		1CB1DA5124E4FC1100F10690 /* RongCloudTokenResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RongCloudTokenResult.m; sourceTree = "<group>"; };
+		1CB1DA5224E4FC1100F10690 /* RCLiveVoteMsgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLiveVoteMsgModel.m; sourceTree = "<group>"; };
+		1CB1DA5524E4FC1100F10690 /* YxzAdjustPositionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzAdjustPositionButton.h; sourceTree = "<group>"; };
+		1CB1DA5724E4FC1100F10690 /* YxzSubscriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzSubscriptionCell.m; sourceTree = "<group>"; };
+		1CB1DA5824E4FC1100F10690 /* YxzCommenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzCommenCell.h; sourceTree = "<group>"; };
+		1CB1DA5924E4FC1100F10690 /* YxzMsgJoinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzMsgJoinCell.h; sourceTree = "<group>"; };
+		1CB1DA5A24E4FC1100F10690 /* YxzMsgGiftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzMsgGiftCell.h; sourceTree = "<group>"; };
+		1CB1DA5B24E4FC1100F10690 /* YxzChatBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzChatBaseCell.h; sourceTree = "<group>"; };
+		1CB1DA5C24E4FC1100F10690 /* YxzNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzNormalCell.h; sourceTree = "<group>"; };
+		1CB1DA5D24E4FC1100F10690 /* YxzCommenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzCommenCell.m; sourceTree = "<group>"; };
+		1CB1DA5E24E4FC1100F10690 /* YxzSubscriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzSubscriptionCell.h; sourceTree = "<group>"; };
+		1CB1DA5F24E4FC1100F10690 /* YxzMsgJoinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzMsgJoinCell.m; sourceTree = "<group>"; };
+		1CB1DA6024E4FC1100F10690 /* YxzNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzNormalCell.m; sourceTree = "<group>"; };
+		1CB1DA6124E4FC1100F10690 /* YxzChatBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzChatBaseCell.m; sourceTree = "<group>"; };
+		1CB1DA6224E4FC1100F10690 /* YxzMsgGiftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzMsgGiftCell.m; sourceTree = "<group>"; };
+		1CB1DA6324E4FC1100F10690 /* YxzLeveBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzLeveBgView.m; sourceTree = "<group>"; };
+		1CB1DA6424E4FC1100F10690 /* YxzChatListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzChatListTableView.m; sourceTree = "<group>"; };
+		1CB1DA6524E4FC1100F10690 /* YxzChatListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzChatListTableView.h; sourceTree = "<group>"; };
+		1CB1DA6624E4FC1100F10690 /* YxzLeveBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzLeveBgView.h; sourceTree = "<group>"; };
+		1CB1DA6724E4FC1100F10690 /* YxzAdjustPositionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzAdjustPositionButton.m; sourceTree = "<group>"; };
+		1CB1DA6924E4FC1100F10690 /* YxzInputBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzInputBoxView.m; sourceTree = "<group>"; };
+		1CB1DA6A24E4FC1100F10690 /* YxzInputBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzInputBoxView.h; sourceTree = "<group>"; };
+		1CB1DA6B24E4FC1100F10690 /* YxzChatCompleteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzChatCompleteComponent.m; sourceTree = "<group>"; };
+		1CB1DA6C24E4FC1100F10690 /* YxzAnimationControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzAnimationControl.m; sourceTree = "<group>"; };
+		1CB1DA6E24E4FC1100F10690 /* YxzFaceContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzFaceContainerView.h; sourceTree = "<group>"; };
+		1CB1DA7024E4FC1100F10690 /* YxzShowSelectedFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzShowSelectedFaceView.h; sourceTree = "<group>"; };
+		1CB1DA7124E4FC1100F10690 /* YxzFaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzFaceCell.m; sourceTree = "<group>"; };
+		1CB1DA7224E4FC1100F10690 /* YxzFaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzFaceCell.h; sourceTree = "<group>"; };
+		1CB1DA7324E4FC1100F10690 /* YxzShowSelectedFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzShowSelectedFaceView.m; sourceTree = "<group>"; };
+		1CB1DA7524E4FC1100F10690 /* YxzFaceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzFaceItem.m; sourceTree = "<group>"; };
+		1CB1DA7624E4FC1100F10690 /* YxzFaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzFaceItem.h; sourceTree = "<group>"; };
+		1CB1DA7724E4FC1100F10690 /* YxzFaceContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzFaceContainerView.m; sourceTree = "<group>"; };
+		1CB1DA7824E4FC1100F10690 /* YxzChatCompleteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzChatCompleteComponent.h; sourceTree = "<group>"; };
+		1CB1DA7924E4FC1100F10690 /* YxzAnimationControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzAnimationControl.h; sourceTree = "<group>"; };
+		1CB1DA7B24E4FC1100F10690 /* RoomBaseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomBaseInfo.h; sourceTree = "<group>"; };
+		1CB1DA7C24E4FC1100F10690 /* RoomBaseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomBaseInfo.m; sourceTree = "<group>"; };
+		1CB1DA7E24E4FC1100F10690 /* PraiseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraiseAnimation.h; sourceTree = "<group>"; };
+		1CB1DA7F24E4FC1100F10690 /* YxzCalculateTextSizeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxzCalculateTextSizeTool.h; sourceTree = "<group>"; };
+		1CB1DA8024E4FC1100F10690 /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+		1CB1DA8124E4FC1100F10690 /* YxzCalculateTextSizeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxzCalculateTextSizeTool.m; sourceTree = "<group>"; };
+		1CB1DA8224E4FC1100F10690 /* PraiseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraiseAnimation.m; sourceTree = "<group>"; };
+		1CB1DA8324E4FC1100F10690 /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		66DFF60BCEF007448A595792 /* Pods-IFan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFan.debug.xcconfig"; path = "Target Support Files/Pods-IFan/Pods-IFan.debug.xcconfig"; sourceTree = "<group>"; };
+		74F9CD915C4DEADE4739FE8A /* libPods-IFan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IFan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7EEFC991C22E3E90D38A9B /* Pods-IFan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFan.release.xcconfig"; path = "Target Support Files/Pods-IFan/Pods-IFan.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CB1D72724E4F20400F10690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607833900523E074ACEC4977 /* libPods-IFan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CB1D72124E4F20400F10690 = {
+			isa = PBXGroup;
+			children = (
+				1CB1D72C24E4F20400F10690 /* IFan */,
+				1CB1D72B24E4F20400F10690 /* Products */,
+				BC512F9A7D86F5F900E628EC /* Pods */,
+				4E7E7988148E3ACB7A34368B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CB1D72B24E4F20400F10690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1D72A24E4F20400F10690 /* libIFan.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CB1D72C24E4F20400F10690 /* IFan */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1D9F924E4FC1100F10690 /* core */,
+				1CB1D73C24E4F24400F10690 /* UZModule.h */,
+				1CB1D9F224E4F35200F10690 /* IFanModule.h */,
+				1CB1D9F324E4F35200F10690 /* IFanModule.m */,
+			);
+			path = IFan;
+			sourceTree = "<group>";
+		};
+		1CB1D9F924E4FC1100F10690 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1D9FA24E4FC1100F10690 /* catagory */,
+				1CB1D9FF24E4FC1100F10690 /* mode */,
+				1CB1DA0F24E4FC1100F10690 /* initManager */,
+				1CB1DA1424E4FC1100F10690 /* network */,
+				1CB1DA1924E4FC1100F10690 /* controller */,
+				1CB1DA1E24E4FC1100F10690 /* resouce */,
+				1CB1DA2124E4FC1100F10690 /* liveVideo */,
+				1CB1DA4024E4FC1100F10690 /* RongCloud */,
+				1CB1DA5324E4FC1100F10690 /* views */,
+				1CB1DA7A24E4FC1100F10690 /* foreign */,
+				1CB1DA7D24E4FC1100F10690 /* tool */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		1CB1D9FA24E4FC1100F10690 /* catagory */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1D9FB24E4FC1100F10690 /* UIView+Frame.m */,
+				1CB1D9FC24E4FC1100F10690 /* NSString+Empty.h */,
+				1CB1D9FD24E4FC1100F10690 /* NSString+Empty.m */,
+				1CB1D9FE24E4FC1100F10690 /* UIView+Frame.h */,
+			);
+			path = catagory;
+			sourceTree = "<group>";
+		};
+		1CB1D9FF24E4FC1100F10690 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA0024E4FC1100F10690 /* YxzAttributeMsgFactory.h */,
+				1CB1DA0124E4FC1100F10690 /* YxzMsgAttributeModel.h */,
+				1CB1DA0224E4FC1100F10690 /* YxzGiftModel.m */,
+				1CB1DA0324E4FC1100F10690 /* YXZMessageModel.m */,
+				1CB1DA0424E4FC1100F10690 /* YxzUserModel.h */,
+				1CB1DA0524E4FC1100F10690 /* YxzLevelManager.h */,
+				1CB1DA0624E4FC1100F10690 /* HttpHostManager.h */,
+				1CB1DA0724E4FC1100F10690 /* YxzAttributeMsgFactory.m */,
+				1CB1DA0824E4FC1100F10690 /* YxzUserModel.m */,
+				1CB1DA0924E4FC1100F10690 /* YXZMessageModel.h */,
+				1CB1DA0A24E4FC1100F10690 /* YxzGiftModel.h */,
+				1CB1DA0B24E4FC1100F10690 /* YXZConstant.h */,
+				1CB1DA0C24E4FC1100F10690 /* YxzMsgAttributeModel.m */,
+				1CB1DA0D24E4FC1100F10690 /* HttpHostManager.m */,
+				1CB1DA0E24E4FC1100F10690 /* YxzLevelManager.m */,
+			);
+			path = mode;
+			sourceTree = "<group>";
+		};
+		1CB1DA0F24E4FC1100F10690 /* initManager */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA1024E4FC1100F10690 /* LivePlayerInitializeController.m */,
+				1CB1DA1124E4FC1100F10690 /* SupportedInterfaceOrientations.h */,
+				1CB1DA1224E4FC1100F10690 /* LivePlayerInitializeController.h */,
+				1CB1DA1324E4FC1100F10690 /* SupportedInterfaceOrientations.m */,
+			);
+			path = initManager;
+			sourceTree = "<group>";
+		};
+		1CB1DA1424E4FC1100F10690 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA1524E4FC1100F10690 /* NetWorkCore.h */,
+				1CB1DA1624E4FC1100F10690 /* NetWorkRequestManager.h */,
+				1CB1DA1724E4FC1100F10690 /* NetWorkCore.m */,
+				1CB1DA1824E4FC1100F10690 /* NetWorkRequestManager.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		1CB1DA1924E4FC1100F10690 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA1A24E4FC1100F10690 /* YxzChatController.m */,
+				1CB1DA1B24E4FC1100F10690 /* LoadLiveInfoManager.m */,
+				1CB1DA1C24E4FC1100F10690 /* LoadLiveInfoManager.h */,
+				1CB1DA1D24E4FC1100F10690 /* YxzChatController.h */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1CB1DA1E24E4FC1100F10690 /* resouce */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA1F24E4FC1100F10690 /* YxzChatResouce.bundle */,
+				1CB1DA2024E4FC1100F10690 /* animationfireworks.bundle */,
+			);
+			path = resouce;
+			sourceTree = "<group>";
+		};
+		1CB1DA2124E4FC1100F10690 /* liveVideo */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA2224E4FC1100F10690 /* vote */,
+				1CB1DA2924E4FC1100F10690 /* liveView */,
+				1CB1DA3324E4FC1100F10690 /* manager */,
+				1CB1DA3424E4FC1100F10690 /* views */,
+				1CB1DA3924E4FC1100F10690 /* viedoBasSetting */,
+			);
+			path = liveVideo;
+			sourceTree = "<group>";
+		};
+		1CB1DA2224E4FC1100F10690 /* vote */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA2324E4FC1100F10690 /* ProcessButton.h */,
+				1CB1DA2424E4FC1100F10690 /* VoteView.m */,
+				1CB1DA2524E4FC1100F10690 /* VoteItemModelResult.m */,
+				1CB1DA2624E4FC1100F10690 /* ProcessButton.m */,
+				1CB1DA2724E4FC1100F10690 /* VoteView.h */,
+				1CB1DA2824E4FC1100F10690 /* VoteItemModelResult.h */,
+			);
+			path = vote;
+			sourceTree = "<group>";
+		};
+		1CB1DA2924E4FC1100F10690 /* liveView */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA2A24E4FC1100F10690 /* YxzLivePlayer.h */,
+				1CB1DA2B24E4FC1100F10690 /* SuspensionWindow.h */,
+				1CB1DA2C24E4FC1100F10690 /* YxzPlayerModel.h */,
+				1CB1DA2D24E4FC1100F10690 /* YxzLivePlayerControlView.h */,
+				1CB1DA2E24E4FC1100F10690 /* YxzLivePlayer.m */,
+				1CB1DA2F24E4FC1100F10690 /* SuspensionWindow.m */,
+				1CB1DA3024E4FC1100F10690 /* YxzPlayerModel.m */,
+				1CB1DA3124E4FC1100F10690 /* YxzLiveRoomControlDelegate.h */,
+				1CB1DA3224E4FC1100F10690 /* YxzLivePlayerControlView.m */,
+			);
+			path = liveView;
+			sourceTree = "<group>";
+		};
+		1CB1DA3324E4FC1100F10690 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		1CB1DA3424E4FC1100F10690 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA3524E4FC1100F10690 /* YxzVideoLooksBasicInfoView.h */,
+				1CB1DA3724E4FC1100F10690 /* YxzVideoLooksBasicInfoView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		1CB1DA3924E4FC1100F10690 /* viedoBasSetting */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA3A24E4FC1100F10690 /* LiveRoomSettingSeparationView.h */,
+				1CB1DA3B24E4FC1100F10690 /* YxzPopView.m */,
+				1CB1DA3C24E4FC1100F10690 /* YxzLiveRoomSettingView.h */,
+				1CB1DA3D24E4FC1100F10690 /* LiveRoomSettingSeparationView.m */,
+				1CB1DA3E24E4FC1100F10690 /* YxzPopView.h */,
+				1CB1DA3F24E4FC1100F10690 /* YxzLiveRoomSettingView.m */,
+			);
+			path = viedoBasSetting;
+			sourceTree = "<group>";
+		};
+		1CB1DA4024E4FC1100F10690 /* RongCloud */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA4124E4FC1100F10690 /* RongCloudManager.h */,
+				1CB1DA4224E4FC1100F10690 /* RCShowLiveVoteMsgModel.m */,
+				1CB1DA4324E4FC1100F10690 /* BackgroundAnimationMessage.m */,
+				1CB1DA4424E4FC1100F10690 /* UIMsgModeToRongMsgModelFactory.h */,
+				1CB1DA4524E4FC1100F10690 /* PraiseMessagModel.h */,
+				1CB1DA4624E4FC1100F10690 /* JoinRoomMsg.m */,
+				1CB1DA4724E4FC1100F10690 /* RCMessageModel.m */,
+				1CB1DA4824E4FC1100F10690 /* RCLiveVoteMsgModel.h */,
+				1CB1DA4924E4FC1100F10690 /* RongCloudTokenResult.h */,
+				1CB1DA4A24E4FC1100F10690 /* RCShowLiveVoteMsgModel.h */,
+				1CB1DA4B24E4FC1100F10690 /* RongCloudManager.m */,
+				1CB1DA4C24E4FC1100F10690 /* PraiseMessagModel.m */,
+				1CB1DA4D24E4FC1100F10690 /* UIMsgModeToRongMsgModelFactory.m */,
+				1CB1DA4E24E4FC1100F10690 /* BackgroundAnimationMessage.h */,
+				1CB1DA4F24E4FC1100F10690 /* RCMessageModel.h */,
+				1CB1DA5024E4FC1100F10690 /* JoinRoomMsg.h */,
+				1CB1DA5124E4FC1100F10690 /* RongCloudTokenResult.m */,
+				1CB1DA5224E4FC1100F10690 /* RCLiveVoteMsgModel.m */,
+			);
+			path = RongCloud;
+			sourceTree = "<group>";
+		};
+		1CB1DA5324E4FC1100F10690 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA5424E4FC1100F10690 /* messageView */,
+				1CB1DA6824E4FC1100F10690 /* inputView */,
+				1CB1DA6B24E4FC1100F10690 /* YxzChatCompleteComponent.m */,
+				1CB1DA6C24E4FC1100F10690 /* YxzAnimationControl.m */,
+				1CB1DA6D24E4FC1100F10690 /* faceView */,
+				1CB1DA7824E4FC1100F10690 /* YxzChatCompleteComponent.h */,
+				1CB1DA7924E4FC1100F10690 /* YxzAnimationControl.h */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		1CB1DA5424E4FC1100F10690 /* messageView */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA5524E4FC1100F10690 /* YxzAdjustPositionButton.h */,
+				1CB1DA5624E4FC1100F10690 /* tableCell */,
+				1CB1DA6324E4FC1100F10690 /* YxzLeveBgView.m */,
+				1CB1DA6424E4FC1100F10690 /* YxzChatListTableView.m */,
+				1CB1DA6524E4FC1100F10690 /* YxzChatListTableView.h */,
+				1CB1DA6624E4FC1100F10690 /* YxzLeveBgView.h */,
+				1CB1DA6724E4FC1100F10690 /* YxzAdjustPositionButton.m */,
+			);
+			path = messageView;
+			sourceTree = "<group>";
+		};
+		1CB1DA5624E4FC1100F10690 /* tableCell */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA5724E4FC1100F10690 /* YxzSubscriptionCell.m */,
+				1CB1DA5824E4FC1100F10690 /* YxzCommenCell.h */,
+				1CB1DA5924E4FC1100F10690 /* YxzMsgJoinCell.h */,
+				1CB1DA5A24E4FC1100F10690 /* YxzMsgGiftCell.h */,
+				1CB1DA5B24E4FC1100F10690 /* YxzChatBaseCell.h */,
+				1CB1DA5C24E4FC1100F10690 /* YxzNormalCell.h */,
+				1CB1DA5D24E4FC1100F10690 /* YxzCommenCell.m */,
+				1CB1DA5E24E4FC1100F10690 /* YxzSubscriptionCell.h */,
+				1CB1DA5F24E4FC1100F10690 /* YxzMsgJoinCell.m */,
+				1CB1DA6024E4FC1100F10690 /* YxzNormalCell.m */,
+				1CB1DA6124E4FC1100F10690 /* YxzChatBaseCell.m */,
+				1CB1DA6224E4FC1100F10690 /* YxzMsgGiftCell.m */,
+			);
+			path = tableCell;
+			sourceTree = "<group>";
+		};
+		1CB1DA6824E4FC1100F10690 /* inputView */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA6924E4FC1100F10690 /* YxzInputBoxView.m */,
+				1CB1DA6A24E4FC1100F10690 /* YxzInputBoxView.h */,
+			);
+			path = inputView;
+			sourceTree = "<group>";
+		};
+		1CB1DA6D24E4FC1100F10690 /* faceView */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA6E24E4FC1100F10690 /* YxzFaceContainerView.h */,
+				1CB1DA6F24E4FC1100F10690 /* subViews */,
+				1CB1DA7424E4FC1100F10690 /* model */,
+				1CB1DA7724E4FC1100F10690 /* YxzFaceContainerView.m */,
+			);
+			path = faceView;
+			sourceTree = "<group>";
+		};
+		1CB1DA6F24E4FC1100F10690 /* subViews */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA7024E4FC1100F10690 /* YxzShowSelectedFaceView.h */,
+				1CB1DA7124E4FC1100F10690 /* YxzFaceCell.m */,
+				1CB1DA7224E4FC1100F10690 /* YxzFaceCell.h */,
+				1CB1DA7324E4FC1100F10690 /* YxzShowSelectedFaceView.m */,
+			);
+			path = subViews;
+			sourceTree = "<group>";
+		};
+		1CB1DA7424E4FC1100F10690 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA7524E4FC1100F10690 /* YxzFaceItem.m */,
+				1CB1DA7624E4FC1100F10690 /* YxzFaceItem.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1CB1DA7A24E4FC1100F10690 /* foreign */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA7B24E4FC1100F10690 /* RoomBaseInfo.h */,
+				1CB1DA7C24E4FC1100F10690 /* RoomBaseInfo.m */,
+			);
+			path = foreign;
+			sourceTree = "<group>";
+		};
+		1CB1DA7D24E4FC1100F10690 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1DA7E24E4FC1100F10690 /* PraiseAnimation.h */,
+				1CB1DA7F24E4FC1100F10690 /* YxzCalculateTextSizeTool.h */,
+				1CB1DA8024E4FC1100F10690 /* ToastView.m */,
+				1CB1DA8124E4FC1100F10690 /* YxzCalculateTextSizeTool.m */,
+				1CB1DA8224E4FC1100F10690 /* PraiseAnimation.m */,
+				1CB1DA8324E4FC1100F10690 /* ToastView.h */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		4E7E7988148E3ACB7A34368B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74F9CD915C4DEADE4739FE8A /* libPods-IFan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC512F9A7D86F5F900E628EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66DFF60BCEF007448A595792 /* Pods-IFan.debug.xcconfig */,
+				CB7EEFC991C22E3E90D38A9B /* Pods-IFan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CB1D72924E4F20400F10690 /* IFan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB1D73324E4F20400F10690 /* Build configuration list for PBXNativeTarget "IFan" */;
+			buildPhases = (
+				B7BD6C4DEE6590FC88C8DB3C /* [CP] Check Pods Manifest.lock */,
+				1CB1D72624E4F20400F10690 /* Sources */,
+				1CB1D72724E4F20400F10690 /* Frameworks */,
+				1CB1D72824E4F20400F10690 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IFan;
+			productName = IFan;
+			productReference = 1CB1D72A24E4F20400F10690 /* libIFan.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CB1D72224E4F20400F10690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "颜学宙";
+				TargetAttributes = {
+					1CB1D72924E4F20400F10690 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 1CB1D72524E4F20400F10690 /* Build configuration list for PBXProject "IFan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CB1D72124E4F20400F10690;
+			productRefGroup = 1CB1D72B24E4F20400F10690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CB1D72924E4F20400F10690 /* IFan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7BD6C4DEE6590FC88C8DB3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IFan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CB1D72624E4F20400F10690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB1DABB24E4FC1100F10690 /* PraiseAnimation.m in Sources */,
+				1CB1DAA024E4FC1100F10690 /* BackgroundAnimationMessage.m in Sources */,
+				1CB1DAB624E4FC1100F10690 /* YxzFaceItem.m in Sources */,
+				1CB1DAB324E4FC1100F10690 /* YxzAnimationControl.m in Sources */,
+				1CB1DA9E24E4FC1100F10690 /* YxzLiveRoomSettingView.m in Sources */,
+				1CB1DABA24E4FC1100F10690 /* YxzCalculateTextSizeTool.m in Sources */,
+				1CB1DAB924E4FC1100F10690 /* ToastView.m in Sources */,
+				1CB1DAAC24E4FC1100F10690 /* YxzChatBaseCell.m in Sources */,
+				1CB1DAAD24E4FC1100F10690 /* YxzMsgGiftCell.m in Sources */,
+				1CB1DAA724E4FC1100F10690 /* RCLiveVoteMsgModel.m in Sources */,
+				1CB1DA9024E4FC1100F10690 /* NetWorkRequestManager.m in Sources */,
+				1CB1DA8C24E4FC1100F10690 /* YxzLevelManager.m in Sources */,
+				1CB1DAAB24E4FC1100F10690 /* YxzNormalCell.m in Sources */,
+				1CB1DAAA24E4FC1100F10690 /* YxzMsgJoinCell.m in Sources */,
+				1CB1DA8A24E4FC1100F10690 /* YxzMsgAttributeModel.m in Sources */,
+				1CB1DAA524E4FC1100F10690 /* UIMsgModeToRongMsgModelFactory.m in Sources */,
+				1CB1DAA924E4FC1100F10690 /* YxzCommenCell.m in Sources */,
+				1CB1DAAE24E4FC1100F10690 /* YxzLeveBgView.m in Sources */,
+				1CB1DA9D24E4FC1100F10690 /* LiveRoomSettingSeparationView.m in Sources */,
+				1CB1DA9424E4FC1100F10690 /* VoteItemModelResult.m in Sources */,
+				1CB1DA9324E4FC1100F10690 /* VoteView.m in Sources */,
+				1CB1DA8724E4FC1100F10690 /* YXZMessageModel.m in Sources */,
+				1CB1DA9624E4FC1100F10690 /* YxzLivePlayer.m in Sources */,
+				1CB1DAA324E4FC1100F10690 /* RongCloudManager.m in Sources */,
+				1CB1DAB524E4FC1100F10690 /* YxzShowSelectedFaceView.m in Sources */,
+				1CB1DA9524E4FC1100F10690 /* ProcessButton.m in Sources */,
+				1CB1DA8924E4FC1100F10690 /* YxzUserModel.m in Sources */,
+				1CB1DA9124E4FC1100F10690 /* YxzChatController.m in Sources */,
+				1CB1DAA124E4FC1100F10690 /* JoinRoomMsg.m in Sources */,
+				1CB1DA9F24E4FC1100F10690 /* RCShowLiveVoteMsgModel.m in Sources */,
+				1CB1DAB024E4FC1100F10690 /* YxzAdjustPositionButton.m in Sources */,
+				1CB1DA8524E4FC1100F10690 /* NSString+Empty.m in Sources */,
+				1CB1DA9224E4FC1100F10690 /* LoadLiveInfoManager.m in Sources */,
+				1CB1DAAF24E4FC1100F10690 /* YxzChatListTableView.m in Sources */,
+				1CB1DA9724E4FC1100F10690 /* SuspensionWindow.m in Sources */,
+				1CB1DAB824E4FC1100F10690 /* RoomBaseInfo.m in Sources */,
+				1CB1DAA824E4FC1100F10690 /* YxzSubscriptionCell.m in Sources */,
+				1CB1DAB724E4FC1100F10690 /* YxzFaceContainerView.m in Sources */,
+				1CB1DA9C24E4FC1100F10690 /* YxzPopView.m in Sources */,
+				1CB1DA8424E4FC1100F10690 /* UIView+Frame.m in Sources */,
+				1CB1DA9824E4FC1100F10690 /* YxzPlayerModel.m in Sources */,
+				1CB1DAB124E4FC1100F10690 /* YxzInputBoxView.m in Sources */,
+				1CB1DAA224E4FC1100F10690 /* RCMessageModel.m in Sources */,
+				1CB1DA9B24E4FC1100F10690 /* YxzVideoLooksBasicInfoView.m in Sources */,
+				1CB1DAA624E4FC1100F10690 /* RongCloudTokenResult.m in Sources */,
+				1CB1DA8E24E4FC1100F10690 /* SupportedInterfaceOrientations.m in Sources */,
+				1CB1DA8824E4FC1100F10690 /* YxzAttributeMsgFactory.m in Sources */,
+				1CB1DA9924E4FC1100F10690 /* YxzLivePlayerControlView.m in Sources */,
+				1CB1D9F424E4F35200F10690 /* IFanModule.m in Sources */,
+				1CB1DAA424E4FC1100F10690 /* PraiseMessagModel.m in Sources */,
+				1CB1DA8B24E4FC1100F10690 /* HttpHostManager.m in Sources */,
+				1CB1DAB224E4FC1100F10690 /* YxzChatCompleteComponent.m in Sources */,
+				1CB1DA8624E4FC1100F10690 /* YxzGiftModel.m in Sources */,
+				1CB1DA8D24E4FC1100F10690 /* LivePlayerInitializeController.m in Sources */,
+				1CB1DAB424E4FC1100F10690 /* YxzFaceCell.m in Sources */,
+				1CB1DA8F24E4FC1100F10690 /* NetWorkCore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CB1D73124E4F20400F10690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CB1D73224E4F20400F10690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CB1D73424E4F20400F10690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DFF60BCEF007448A595792 /* Pods-IFan.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98MD99MGH9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IFan/core/lib/RongCloudIM/RongCloudIM",
+					"$(PROJECT_DIR)/IFan/core/lib/TXLiteAVSDK_Player/TXLiteAVSDK_Player/SDK",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IFan/core/lib/RongCloudIM/RongCloudIM",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CB1D73524E4F20400F10690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7EEFC991C22E3E90D38A9B /* Pods-IFan.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98MD99MGH9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IFan/core/lib/RongCloudIM/RongCloudIM",
+					"$(PROJECT_DIR)/IFan/core/lib/TXLiteAVSDK_Player/TXLiteAVSDK_Player/SDK",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IFan/core/lib/RongCloudIM/RongCloudIM",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CB1D72524E4F20400F10690 /* Build configuration list for PBXProject "IFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB1D73124E4F20400F10690 /* Debug */,
+				1CB1D73224E4F20400F10690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB1D73324E4F20400F10690 /* Build configuration list for PBXNativeTarget "IFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB1D73424E4F20400F10690 /* Debug */,
+				1CB1D73524E4F20400F10690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CB1D72224E4F20400F10690 /* Project object */;
+}
